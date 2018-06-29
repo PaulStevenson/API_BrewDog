@@ -10,7 +10,6 @@ BeerDetailView.prototype.createBeerDetail = function (beer) {
     beerName.textContent = beer.name;
     beerDetail.appendChild(beerName);
 
-
     const detailsList = document.createElement('ul');
     const tagline = this.createDetailListItem('Tagline', beer.tagline);
     detailsList.appendChild(tagline);
